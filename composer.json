@@ -1,0 +1,26 @@
+{
+  "name": "mage-os/module-admin-user-time-zone",
+  "description": "MageOS Admin user time zone",
+  "type": "magento2-module",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "php": "^8.1",
+    "magento/module-newsletter": "*"
+  },
+  "authors": [
+    {
+      "name": "Gianluca Porta",
+      "email": "gporta@gianlucaporta.it"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageOS\\NewsletterCoupon\\": ""
+    }
+  }
+}

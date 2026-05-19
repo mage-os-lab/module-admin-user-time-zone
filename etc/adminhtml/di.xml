@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<type name="Magento\Framework\Stdlib\DateTime\Timezone">
+    <plugin name="vendor_admin_user_timezone"
+            type="Vendor\AdminTimezone\Plugin\AdminTimezone" />
+</type>
